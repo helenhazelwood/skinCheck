@@ -54,7 +54,7 @@ const arr = [
   `Laminaria Digitata Extract`,
   `Laminaria Saccharina Extract`,
   `Laminaria Saccharine`,
-  ` Laureth-23`,
+  `Laureth-23`,
   `Laureth-4`,
   `Lauric Acid`,
   `Mink Oil`,
@@ -100,6 +100,7 @@ const blacklist = arr.map(ingredient =>
   ingredient.replace(regex, '').toLowerCase()
 );
 
+//this filter might miss ingredients in the IL argument that contain additional characters (ex, english version of a latin name, explanation of what an ingredient is -- see paula's choice ingredient lists)
 const filter = str => {
   const ingredients = str.split(', ');
   return ingredients.filter(ingredient =>
@@ -107,6 +108,7 @@ const filter = str => {
   );
 };
 
+//this filter is over-zealous, and will return a match if any substring in the IL argument matches a substring in the blacklist
 const filter2 = str => {
   const ingredients = str.split(', ');
   const ret = [];
