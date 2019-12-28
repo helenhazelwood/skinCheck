@@ -123,7 +123,7 @@ const filter2 = str => {
   return ret;
 };
 
-const product = `Aloe Barbadensis Leaf Water, Butylene Glycol, Helianthus Annuus Seed Oil, Glycerine, Zinc Oxide, Cetearyl Alcohol, Dimethyl Sulfone, Betaine, Polysorbate 60, Elaeis Guineensis (Palm) Oil, Elaeis Guineensis (Palm) Kernel Oil, Cetearyl Olivate, Sorbitan Olivate, 1,2-Hexanediol, Calamine, Dimethicone, Illicium Verum (Anise) Fruit Extract, Scutellaria Baicalensis Root Extract, Xanthan Gum, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Ethyl Hexanediol, Asiaticoside, Asiatic Acid, Madecassic Acid`;
+const product = `Aloe Barbadensis Leaf Water, Butylene Glycol, Helianthus Annuus Seed Oil, Glycerine, Zinc Oxide, Cetearyl Alcohol, Dimethyl Sulfone, Betaine, Polysorbate 60, Elaeis Guineensis (Palm) Oil, Elaeis Guineensis (Palm) Kernel Oil, Cetearyl Olivate, Sorbitan Olivate, 1,2-Hexanediol, Calamine, Dimethicone, Illicium Verum (Anise) Fruit Extract, Scutellaria Baicalensis Root Extract, Xanthan Gum, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Ethyl Hexanediol, Asiaticoside, Asiatic Acid, Madecassic Acidslkadjflaj`;
 
 console.log(
   'Intense filter:',
