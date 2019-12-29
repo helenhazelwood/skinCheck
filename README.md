@@ -3,7 +3,7 @@
 _A script for checking ingredient lists for irritants and comodogens_
 
 # Install:
-- download node.js and npm if you don't have them: 
+- download node.js and npm if you don't have them: (you can also use homebrew if you have it -- $brew install node)
    - $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
    - $ nvm install node
 - git clone and cd into the git repo
