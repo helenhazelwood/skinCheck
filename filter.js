@@ -49,8 +49,9 @@ const arr = [
   `Isostearyl Isostearate`,
   `Isostearyl Neopentanoate`,
   `Kelp`,
-  ` Lactobacillus/Nereocystis Luetkeana Ferment Filtrate (Sea Kelp Bioferment)`,
+  `Lactobacillus/Nereocystis Luetkeana Ferment Filtrate (Sea Kelp Bioferment)`,
   `Sea Kelp Bioferment`,
+  `Lactobacillus`,
   `Laminaria Digitata Extract`,
   `Laminaria Saccharina Extract`,
   `Laminaria Saccharine`,
@@ -125,7 +126,7 @@ const filter2 = str => {
   return ret;
 };
 
-const product = `Aloe Barbadensis Leaf Water, Butylene Glycol, Helianthus Annuus Seed Oil, Glycerine, Zinc Oxide, Cetearyl Alcohol, Dimethyl Sulfone, Betaine, Polysorbate 60, Elaeis Guineensis (Palm) Oil, Elaeis Guineensis (Palm) Kernel Oil, Cetearyl Olivate, Sorbitan Olivate, 1,2-Hexanediol, Calamine, Dimethicone, Illicium Verum (Anise) Fruit Extract, Scutellaria Baicalensis Root Extract, Xanthan Gum, Melaleuca Alternifolia (Tea Tree) Leaf Oil, Ethyl Hexanediol, Asiaticoside, Asiatic Acid, Madecassic Acidslkadjflaj`;
+const product = `Water, Glycerin, Butylene Glycol, Niacinamide, 1,2-Hexanediol, Hydroxyacetophenone, Hydroxyethylcellulose, PEG-60 Hydrogenated Castor Oil, Threhalose, Chlorphenesin, Allantoin, Arginine, Carbomer, Dipropylene Glycol, Dipotassium Glycyrrhizate, Disodium, EDTA, Sodium Hyaluronate, Panthenol, Fragrance, Portulaca Olearacea Extract, Glyceryl Acrylate/Acrylic Acid Copolymer, PVM/MA Copolymer, Melaleuca Alternifolia (Teat Tree) Leaf Extract, Lavendula Angustifolia (Lavender) Flower Extract, Rosmarinus Officinalis (Rosemary) Leaf Extract, Chamomilla Recutita (Matricaria) Flower extract, Mentha piperita (peppermint) Leaf Extract, Diamong powder, Centella Asiatica Extract, Bambusa Bulgaris Extract, Pinus Densiflora Leaf Extract, Thuja Orientalis Extract, CHamercyparis Obtusa Leaf Extrat, Hydrolyzed Collagen, Phenoxyethano`;
 
 console.log(
   'Intense filter:',
