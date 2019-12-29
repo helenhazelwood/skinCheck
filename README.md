@@ -3,9 +3,11 @@
 _A script for checking ingredient lists for irritants and comodogens_
 
 # Install:
-
-- git clone to machine
-- Command Line: install npm if you don't have it!
+- download node.js and npm if you don't have them: 
+   - $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+   - $ nvm install node
+- git clone and cd into the git repo
+- install node modules:
   - \$ npm install
 
 # How to Use:
